@@ -1,0 +1,115 @@
+.experiencia{
+    background-color:var(--color-Preto);
+	display: flex;
+    /*
+	width: Fill 1,440px;
+	height: 581px;
+    */
+	padding: 2rem;
+	flex-direction: column;
+    align-items: center;
+}
+
+.experiencia_encabezado{
+    text-align: center;
+	font-weight: bold;
+/*	flex-direction: column;*/
+	font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-size: 2rem;
+/*
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0em;
+*/}
+
+.experiencia_imagen{
+    width: 70%;
+}
+
+.experiencia_Encriptador{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.experiencia_Encriptador-reverso{
+	display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.experiencia_contenido{
+text-align: center;
+}
+
+.experiencia_titulo{
+    font-size: 1.5rem;
+}
+
+.experiencia_texto{
+    font-weight: normal;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.experiencia_bottones{
+    display: flex;
+    gap: 1rem;
+}
+.experiencia_bottones--Rep{
+    padding: 10px 20px;
+	margin: 1em;
+    border: 1px solid var(--color-azulmarino);
+	background-color: none;
+	color: var(--color-azulmarino);
+	cursor: pointer;
+	width: 144px;
+	height: 51px;
+	padding: 16px;
+}
+
+.experiencia_bottones--Rep:hover{
+	background-color: var(--color-azulmarino);
+	color:var(--color-blanco) ;
+}
+
+.experiencia_bottones--demo{
+    padding: 10px 20px;
+	margin: 1em;
+	border: none;
+	background-color: var(--color-azulmarino);
+	color: #fff;
+	cursor: pointer;
+	width: 144px;
+	height: 51px;
+	padding: 16px;
+}
+
+.experiencia_bottones--demo:hover{
+	background-color: var(--color-blanco);
+	color: var(--color-azulmarino);
+	border: 1px solid var(--color-azulmarino);
+
+}
+
+@media (max-width: 414px) {
+	.experiencia{
+		display: flex;
+		flex-direction: column;
+	}
+	.experiencia_encabezado{
+		text-align: center;
+	}
+
+	.experiencia_Encriptador{
+		display: flex;
+		flex-direction: column;
+	}
+	.experiencia_Encriptador-reverso{
+		display: flex;
+		flex-direction:column-reverse;
+	}
+}

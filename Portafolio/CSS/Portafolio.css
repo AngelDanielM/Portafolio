@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.Portafolio{
+width: 100vw;
+height: 100vh;
+/*
+background-color: darkblue;
+*/
+background-color: var(--color-azuloscuro);
+/*
+color: #fff;*/
+color: var(	--color-blanco);
+font-family: 'Montserrat', sans-serif;
+}
+
+.Font{
+	width: 100vw;
+	height: 100vh;
+	/*
+	background-color: #F5F5F5;*/
+	background-color: var(--color-Preto);
+}
+
+.portafolio .skills{
+	width: 5vw;
+	height: 5vw;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+

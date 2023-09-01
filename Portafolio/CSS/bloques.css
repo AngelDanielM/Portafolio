@@ -1,0 +1,57 @@
+.bloque_titulo{
+    	/*
+	display: flex;
+	flex-direction: column;
+	justify-content: center;*/
+    font-weight: bold;
+    font-size: 2.5em;
+    
+		display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2em;
+    
+}
+
+.bloque_titular{
+    font-weight: bold;
+    font-size: 2.5em;
+    
+		display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2em;
+}
+
+@media (max-width: 414px){
+
+  .bloque_titulo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+  }
+  .bloque_titular{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+  }
+
+  .skills{
+    flex-direction: column;
+  }
+  
+	.skills_links{
+		display: flex;
+		flex-wrap: wrap;
+    margin-bottom: 2em;
+	}
+
+  .hobbie{
+    flex-direction: column;
+  }
+
+  .hobbie_links{
+		display: flex;
+		flex-wrap: wrap;
+	}
+}

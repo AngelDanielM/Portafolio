@@ -1,0 +1,39 @@
+.contenido h1{
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.contenido span{
+	/*
+	color:turquoise;
+	*/
+	color:var(--color-turquesa);
+}
+
+.contenido_enlaces{
+    display: flex;
+	justify-content: space-evenly;
+	margin-top: 3em;
+}
+
+.contenido_enlaces a{
+    text-decoration: none;
+	/*
+	color: turquoise;
+*/
+color:var(--color-turquesa);
+}
+
+.contenido_enlaces a:hover{
+	/*
+    background-color: aliceblue;*/
+	background-color: var(--color-azulAliciaCeleste-hover);
+	/*
+	color: darkblue;*/
+	color:var(--color-azuloscuro);
+    transition: ease-in .4s;
+}
+
+.contenido_enlaces i{
+    font-size: 1.5em;
+}

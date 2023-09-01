@@ -1,0 +1,8 @@
+.principal img{
+    width: 350px;
+	/*border: 7px solid turquoise;*/
+	border: 7px solid var(--color-turquesa);
+	height: 220px;
+	display: flex;
+	justify-content: right;
+}

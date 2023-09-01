@@ -1,0 +1,53 @@
+.conocimientos{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.conocimiento{
+    display: flex;
+    flex-direction: column;
+}
+
+.conocimiento_imagen{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conocimiento_imagen--datos{
+    background-image: url(../Imagenes/dat.png);
+}
+
+.conocimiento_imagen--alura{
+    background-image: url(../Imagenes/Imagem.png);
+}
+
+.conocimiento_imagen--design{
+    background-image: url(../Imagenes/Imagem@2x.png);
+}
+
+.conocimiento_texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.conocimiento_nombre{
+    font-size: 2rem;
+	margin: 1rem 0;
+}
+
+.conocimiento_duracion{
+    font-size: 1.25rem;
+	text-transform: lowercase;
+}
+
+@media (max-width: 414px){
+    .conocimientos{
+        display: flex;
+        flex-direction: column;
+    }
+}

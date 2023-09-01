@@ -1,0 +1,25 @@
+.footer{
+	width:  1,440px;
+	height:  102px;
+	padding: 32px;
+	gap: 10px
+}
+
+.footer_contenido h2 {
+	font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.footer_contenido h5{
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: center;
+	
+}

@@ -1,0 +1,63 @@
+.skills{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.skills_links{
+    display: flex;
+    justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+
+}
+
+.skills_Tar{
+	position: relative;
+	width: 8rem;
+	height: 8rem;
+	background-color:var(--color-blanco) ;
+	padding: 1rem;
+	list-style: none;
+}
+
+
+.skills_Tar a{
+	/*color: #2a7AE4;*/
+	position: absolute;
+	/*bottom: 1rem;*/
+	color: var(--color-azulmarino);
+	text-decoration: none;
+	padding: 2rem;
+/*	background-color: #fff;*/
+/*
+	background-color: var(--color-blanco);
+*/	/*
+	width: 176px;
+	height: 174px;
+	padding: 16px;
+*/
+}
+
+.skills_Tar i{
+	font-size: 1.5em;
+	margin-bottom: 1rem;
+}
+
+.skills_Tar span{
+	/*
+	color:#464646;*/
+	color: var(--color-grisaceo);
+	font-family: Raleway;
+	
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	
+	letter-spacing: 0em;
+	
+	/*
+	display: flex;
+	flex-direction: column;
+*/
+}
+

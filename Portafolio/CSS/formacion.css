@@ -1,0 +1,19 @@
+.formacion{
+    padding: 5rem;
+    text-align: center;
+    background-color: var(--color-Azul10);
+}
+
+.formacion_titulo{
+    font-size: 3rem;
+}
+
+@media (max-width: 414px){
+    .formacion{
+        display: flex;
+        flex-direction: column;
+    }
+    .formacion_titulo{
+        text-align: center;
+    }
+}

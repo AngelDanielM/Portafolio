@@ -1,0 +1,25 @@
+:root{
+	--variable: valor;
+	--color-turquesa:#40e0d0;
+	--color-azuloscuro:#00008b;
+	--color-blanco:#Fff;
+	--color-azulAliciaCeleste-hover:#f0f8ff;
+	--color-azulmarino:#2A7AE4;
+	--color-grisaceo:#464646;
+	--color-azulcielo-Navegacion:#87ceeb;
+	--color-Preto:#F5F5F5;
+	--color-Azul10:#EAF2FD;
+}
+
+
+main{
+    margin: 0 auto;
+	width: 80vw;
+	height: 80vh;
+	display: grid;
+	
+	grid-template-columns:repeat(2, 1fr) ;
+	
+	align-items: center;
+
+}
